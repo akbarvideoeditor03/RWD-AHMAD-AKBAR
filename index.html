@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahmad Akbar - RWD</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <main>
-        <div class="card container row-f-container flex-content flex-wrap">
-            <section class="container col-f-container flex-1 flex-content-1 flex-between">
-                <div>
+    <main class="card container col-f-container flex-content flex-between">
+        <div class="container row-f-container flex-wrap flex-1">
+            <section class="container col-f-container flex-1 flex-content-1 flex-evenly">
+                <div class="container col-f-container">
                     <h1>Welcome Back 👋</h1>
-                    <p style="text-wrap-mode: wrap;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias enim quaerat</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias enim quaerat</p>
                 </div>
                 <div class="container col-f-container">
                     <form>
@@ -21,15 +23,15 @@
                             <input type="email" placeholder="Example@gmail.com">
                         </div>
                         <div class="container col-f-container">
-                            <label for="Email">Password</label>
-                            <input type="email" placeholder="At least 8 characters">
+                            <label for="Password">Password</label>
+                            <input type="password" placeholder="At least 8 characters">
                         </div>
                         <a href="" style="text-align: right;">Forgot Password?</a>
                         <button type="submit">Sign In</button>
                     </form>
                     <div class="container row-f-container flex-center">
                         <div class="line flex-1"></div>
-                            <p>Or</p>
+                        <p>Or</p>
                         <div class="line flex-1"></div>
                     </div>
                     <div class="container col-f-container">
@@ -47,17 +49,19 @@
                         </a>
                     </div>
                 </div>
-                <div class="container col-f-container flex-center">
-                    <p>Don't you have an account? <a href="">Sign up</a></p>
-                </div>
-                <div class="container col-f-container flex-center">
-                    <p>2024 ALL RIGHT RESERVED - AHMAD AKBAR</p>
+                <div class="container flex-center">
+                    <p style="text-align: center;">Don't you have an account? <a href="">Sign up</a></p>
                 </div>
             </section>
             <section class="container col-f-container flex-center img-container">
-                <img class="img" src="./public/pexels-kamo11235-667838.jpg" alt="img.jpg" srcset="">
-            <section/>
+                <img class="img img-s img-l img-xl" src="./public/pexels-kamo11235-667838.jpg" alt="img.jpg"
+                    srcset="">
+                <section />
+        </div>
+        <div class="container row-f-container flex-center">
+            <p style="text-align: center;">© 2024 All Right Reserved - Ahmad Akbar</p>
         </div>
     </main>
 </body>
+
 </html>
